@@ -1,10 +1,10 @@
 # 投資策略篩選「程式化」結合使用 Line notify 發送通知
 
-# self project info
+# SideProject Info
 此為練習範例，目的是為了學習python所實作範例，
 需達成原本人在做的事交給程式自動執行，使用市面上常見的投資策略常見規則例如：價格、成較量、財報、即時新聞、技術指標等等，設定排程定期運行選股模型，並透過LINE notify把選股結果推送到LINE上
 
-# implement step 
+# Implement step 
 1. 資料源「台灣證交所公開資訊」
 2. 處理資料格式
 3. 篩選資料
@@ -12,7 +12,7 @@
 5. 設定排程
 6. line notify
 
-# import python library use
+# Import python library use
 1. requests先get網頁所有資料
 2. BeautifulSoup 對資料解析，使用格式‘html.parser’、網頁特殊字型處理
 3. python內建datatime處理時間日期的相關格式，民國轉西元
